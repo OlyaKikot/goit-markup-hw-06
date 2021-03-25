@@ -606,6 +606,7 @@ b {
   font-family: inherit;
   background: var(--light-background);
 }
+
 .button-accent {
   background-color: var(--accent-color);
   color: var(--primary-color);
