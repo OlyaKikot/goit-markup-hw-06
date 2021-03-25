@@ -718,7 +718,8 @@ b {
   font-family: inherit;
 }
 
-.button-modal:hover {
+.button-modal:hover,
+.button-modal:focus {
   color: var(--accent-color);
 }
 
@@ -833,7 +834,7 @@ b {
   background-origin: border-box;
 }
 .checkbox:focus-visible + .button-icon-modal-check {
-  outline: 2px solid #000;
+  outline: 2px solid var(--black-color);
 }
 .button-icon-modal-contact {
   position: absolute;
