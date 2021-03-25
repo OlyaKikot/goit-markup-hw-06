@@ -853,6 +853,7 @@ b {
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
   transition: fill 250ms var(--cubic-bezier);
+  cursor: pointer;
 }
 
 .checkbox:checked + .button-icon-modal-check {
