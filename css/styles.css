@@ -748,6 +748,7 @@ b {
   border-radius: 4px;
   outline: none;
   transition: border 250ms var(--cubic-bezier);
+  cursor: pointer;
 }
 .modal-input:focus + .button-icon-modal-contact {
   fill: var(--accent-color);
@@ -777,6 +778,7 @@ b {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color 250ms linear;
+  cursor: pointer;
 }
 .modal-massege::placeholder {
   font-weight: 400;
