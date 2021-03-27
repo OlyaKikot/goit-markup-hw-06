@@ -472,6 +472,7 @@ body {
 .conteiner-footter {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer .button-icon-network {
@@ -482,7 +483,6 @@ body {
 }
 .conteinei-icon-footer-general {
   width: 209px;
-  margin-left: 72px;
 }
 .general-list-icon-network {
   display: flex;
@@ -538,10 +538,6 @@ b {
   background-color: var(--dark-background);
   padding: 15px 16px;
   color: var(--primary-color);
-}
-
-.footer-form {
-  margin-left: 93px;
 }
 
 /*======================= end footer =====================*/
